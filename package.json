@@ -1,0 +1,30 @@
+{
+  "name": "toriel-theme",
+  "displayName": "Toriel Theme",
+  "description": "purple-themed vs code color scheme inspired by toriel from undertale",
+  "version": "1.0.0",
+  "publisher": "absolutegoaaat",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "purple",
+    "undertale",
+    "toriel"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Toriel",
+        "uiTheme": "vs-dark",
+        "path": "./toriel-theme.json"
+      }
+    ]
+  }
+}
